@@ -1,10 +1,10 @@
 @media screen and (max-width:375px){
   body{
-     background-color: #090B1A;
-     justify-content: center;
-     align-items: center;
-     display: block;
-    }
+  background-color: #090B1A;
+ justify-content: center;
+ align-items: center;
+ display: block;
+}
   .card{
     display: block;
     background-color: #1B1938;
@@ -13,6 +13,8 @@
     margin:5em auto;
     text-align: center;
     border-radius: 0.5rem;
+    height: 18rem;
+    width: 8rem;
   }
   .stats{
     display: block;
@@ -24,10 +26,36 @@
   .imagem img{
     border-radius: 0.5rem 0.5rem 0 0;
     opacity: 0.5;
+    width: 8rem;
   }
   .imaged{
     display: none;
   }
+  h1{
+    color:#FFFFFF;
+    font-weight:700;
+    font-size: 125%;
+    width: 95%;
+  }
+  .head p{
+    color: white;
+    opacity: 0.75;
+    font-weight: 400;
+    font-size: 0.7rem;
+    width: 100%;
+    line-height: 175%;
+  }
+  .stath{
+    font-size: 1rem;
+  }
+  .stat-block p{
+    color: white;
+    opacity: 0.6;
+    font-family: 'Lexend Deca',sans-serif;
+    font-weight:300;
+    font-size: 0.6rem;
+  }
+
 }
 body{
   background-color: #090B1A;

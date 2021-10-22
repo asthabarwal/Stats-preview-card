@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL:(https://github.com/asthabarwal/Stats-preview-card/blob/main/README.md)
 - Live Site URL: (https://asthabarwal.github.io/Stats-preview-card/)
 
 ## My process

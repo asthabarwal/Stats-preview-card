@@ -1,4 +1,10 @@
 @media screen and (max-width:375px){
+  body{
+     background-color: #090B1A;
+     justify-content: center;
+     align-items: center;
+     display: block;
+    }
   .card{
     display: block;
     background-color: #1B1938;

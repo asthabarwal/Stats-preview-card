@@ -1,0 +1,101 @@
+@media screen and (max-width:375px){
+  .card{
+    display: block;
+    background-color: #1B1938;
+    font-family: 'Inter',sans-serif;
+    justify-content: center;
+    margin:5em auto;
+    text-align: center;
+    border-radius: 0.5rem;
+  }
+  .stats{
+    display: block;
+  }
+  .imagem{
+    border-radius: 0.5rem 0.5rem 0 0;
+    background-color: #AA5CDB;
+  }
+  .imagem img{
+    border-radius: 0.5rem 0.5rem 0 0;
+    opacity: 0.5;
+  }
+  .imaged{
+    display: none;
+  }
+}
+body{
+  background-color: #090B1A;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.imagem{
+  display: none;
+}
+.card{
+  background-color: #1B1938;
+  font-family: 'Inter',sans-serif;
+  display: flex;
+  height:18rem;
+  width: 42rem;
+  justify-content: center;
+  border-radius: 0.5rem;
+  margin:3.5rem auto 4.3rem auto;
+}
+.head{
+  display: grid;
+  margin-left: 2.6rem;
+  margin-top: 2rem;
+}
+.details{
+  margin-left: 0;
+}
+h1{
+  color:#FFFFFF;
+  font-weight:700;
+  font-size: 125%;
+  width: 95%;
+}
+.head p{
+  color: white;
+  opacity: 0.75;
+  font-weight: 400;
+  font-size: 0.7rem;
+  width: 100%;
+  line-height: 175%;
+}
+.stats{
+  display: flex;
+  margin:auto auto auto 1.5rem;
+}
+.stat-block{
+    margin: 1em 1em 1em 1em;
+
+}
+.stath{
+  font-size: 1rem;
+}
+.stat-block p{
+  color: white;
+  opacity: 0.6;
+  font-family: 'Lexend Deca',sans-serif;
+  font-weight:300;
+  font-size: 0.6rem;
+}
+.imaged{
+  background-color: #AA5CDB;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.imaged img{
+  opacity: 0.5;
+  background-size: cover;
+  height: 18rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+span{
+  color:#AA5CDB;
+}
+.attribution{ margin-top: auto ; margin-bottom: 0;}
+.attribution { font-size: 11px; text-align: center; color:white; opacity:0.75;}
+.attribution a { color: #3E52A3; }
